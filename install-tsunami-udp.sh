@@ -1,6 +1,7 @@
 #!/bin/bash
 # Shell script to install tsunami-udp protocol
 # Ensure that you are running the script as a superuser 
+# The script has been tested on Ubuntu 14.04 version, Kernel - 3.13.0-96-generic 
 
 apt-get -y install make gcc autoconf
 # Download the sourcecode of tsunami-udp 
