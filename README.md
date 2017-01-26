@@ -12,11 +12,11 @@ Shell script downloads the code and installs the necessary packages needed to ru
 
 # Performing Transfers
 
-1. Start the server
+Start the server
 ```
 tsunamid --port 46224 * # (Serves all files from current directory for copy)
 ```
-2. Connect to server from client
+Connect to server from client
 ```
 tsunami connect [server address] get * # (copies all files served to current directory)
 ```
